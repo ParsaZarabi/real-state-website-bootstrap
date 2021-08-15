@@ -1,3 +1,81 @@
-.nav-items{
-    padding-left:450px ;
+.nav-items {
+    padding-left: 450px;
 }
+
+.main-heading {
+    background-image: url(img/Art-design-night-moon-house-fields-trees_1920x1080.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-heading-title {
+    margin-top: 100px;
+}
+
+.left-card {
+    margin-right: 25px;
+}
+
+.info-cards {
+    width: 25rem;
+    margin-top: -50px;
+    border-radius: 20px;
+}
+
+.info-cards-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.border-radius {
+    border-radius: 10px;
+    border-bottom-right-radius: 0px !important;
+}
+
+.left-btn {
+    color: #e5736d;
+    background-color: #fef0f0;
+}
+
+.right-btn {
+    color: #e5736d;
+    background-color: #FFFFFF;
+    border-color: #ecacaa;
+}
+.content-of-collaborations{
+    padding-left:465px ;
+    margin-top:100px ;
+}
+.second-h1-collaborations{
+    padding-left: 45px;
+}
+.logo-of-collaborations{
+    padding-left: 200px;
+    
+}
+.logos{
+    filter: grayscale(100);
+    width: 200px;
+}
+
+.second-cards{
+    background-color: #f8fdfb;
+    
+    
+}
+.our-client-txt{
+    margin-left: -25px;
+}
+.why-us-cards{
+    border-radius: 20px;
+}
+.second-cards-body{
+   margin-left: 315px;
+   
+
+}
+.second-cards-style{
+    border-radius: 20px;
+}
+

@@ -2,42 +2,188 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <title>Berkayu</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Berkayu</title>
 </head>
 
 <body>
-  
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class=" container">
-      <a class="navbar-brand" href="#">Berkayu</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse align-content-center nav-items " id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active ali me-2" aria-current="page" href="#">Home</a>
-          <a class="nav-link me-2" href="#">About Us</a>
-          <a class="nav-link me-2" href="#">Agents</a>
-          <a class="nav-link " href="#">Blog</a>
+    <!-- MAIN HEADER -->
+    <div class="container-fluid main-heading">
+
+        <nav class="navbar navbar-expand-lg  text-light">
+            <div class=" container">
+                <a class="navbar-brand" href="#">Berkayu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse align-content-center nav-items " id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active ali me-2" aria-current="page" href="#">Home</a>
+                        <a class="nav-link me-2" href="#">About Us</a>
+                        <a class="nav-link me-2" href="#">Agents</a>
+                        <a class="nav-link " href="#">Blog</a>
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary border-radius ">Sing In</button>
+                    <button type="button" class="btn btn-light border-radius">Try It Now</button>
+                </div>
+            </div>
+        </nav>
+        <!-- MAIND HEADER CONTENT -->
+        <div class="container text-light main-heading-title ">
+            <h1>Easy way to find <br>your dream <strong>house <br>& real estate </strong> </h1>
+            <p class="mt-4">with the most complete source of homes for sale & <br> real estate for you </p>
+            <button type="button" class="btn btn-danger mt-3 border-radius">Search now</button>
         </div>
-      </div>
-      <div>
-        <button type="button" class="btn ">Sing In</button>
-        <button type="button" class="btn btn-secondary">Try It Now</button>
-      </div>
+        <!-- CARDS -->
     </div>
-  </nav>
-  </nav>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    <div class="container-fluid bg-light text-dark">
+        <div class="row justify-content-center bg-light ">
+
+            <div class="card col-2 left-card info-cards text-center  " style="width: 25rem;">
+                <img src="img/unnamed.gif" class="card-img-top rounded-circle info-cards-image mt-4  " alt="...">
+                <div class="card-body ">
+                    <h3 class="card-title mb-3 ">i'm looking to buy a house</h3>
+                    <p class="card-text mb-3">want a comfortable home with complete facilities? find your dream home
+                        here!</p>
+                    <a href="#" class="btn left-btn border-radius px-5 py-2 mb-3">Search Now</a>
+                </div>
+            </div>
+            <!--  right card -->
+            <div class="card col-2 right-card info-cards text-center " style="width: 25rem;">
+                <img src="img/482-4823525_circle-house-pop-art-house-drawing-hd-png.png"
+                    class="card-img-top rounded-circle info-cards-image mt-4 " alt="...">
+                <div class="card-body ">
+                    <h3 class="card-title mb-3 ">i want to rent a real estate</h3>
+                    <p class="card-text mb-3">There are many affordable real estate variants for your satisfaction</p>
+                    <a href="#" class="btn  right-btn border-radius  px-5 py-2 mb-3">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="container content-of-collaborations bg-light  ">
+            <h2>we're already working with</h2>
+            <h2 class="text-danger second-h1-collaborations ">thousands of agents</h2>
+
+        </div>
+        <div class="container-fluid  logo-of-collaborations bg-light pt-5  ">
+
+            <img src="img/house-logo-design-vector-real-estate-logo-photos-25-Transparent-Images.png" alt="..."
+                class="img-fluid  m-5 logos ">
+            <img src="img/house-logo-design-vector-real-estate-logo-photos-25-Transparent-Images.png" alt="..."
+                class="img-fluid  m-5 logos ">
+            <img src="img/house-logo-design-vector-real-estate-logo-photos-25-Transparent-Images.png" alt="..."
+                class="img-fluid  m-5 logos">
+            <img src="img/house-logo-design-vector-real-estate-logo-photos-25-Transparent-Images.png" alt="..."
+                class="img-fluid  m-5 logos">
+            <img src="img/house-logo-design-vector-real-estate-logo-photos-25-Transparent-Images.png" alt="..."
+                class="img-fluid  m-5 logos">
+
+        </div>
+    </div>
+    <!-- Content of collaborations -->
+
+    <div class=" container-fluid  second-cards text-center center pt-5 ">
+        <p class="  d-inline h2  ">we're providing</p>
+        <p class="h2 text-danger d-inline">best service</p>
+        <p class="h2 our-client-txt py-2 mb-2 ">for our client</p>
+        <div class="row second-cards-body pb-5 ">
+            <!-- first card -->
+            <div class="card    text-center m-4 second-cards-style " style="width: 355px;">
+                <img src="img/unnamed.gif" class="card-img-top rounded-circle info-cards-image mt-4 " alt="...">
+                <div class="card-body ">
+                    <h3 class="card-title mb-3  ">comfort awake</h3>
+                    <p class="card-text mb-3">want a comfortable home with complete facilities? find your dream home
+                        here!</p>
+                    <a href="#" class="btn text-danger  border-radius px-5 py-2 mb-3">Read More ></a>
+                </div>
+            </div>
+            <!-- second card -->
+            <div class="card     text-center m-4 second-cards-style  " style="width: 355px;">
+                <img src="img/unnamed.gif" class="card-img-top rounded-circle info-cards-image mt-4  " alt="...">
+                <div class="card-body ">
+                    <h3 class="card-title mb-3 ">convenient agreement</h3>
+                    <p class="card-text mb-3">want a comfortable home with complete facilities? find your dream home
+                        here!</p>
+                    <a href="#" class="btn text-danger border-radius px-5 py-2 mb-3">Read more ></a>
+                </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="card   text-center m-4 second-cards-style " style="width: 355px;">
+                <img src="img/unnamed.gif" class="card-img-top rounded-circle info-cards-image mt-4  " alt="...">
+                <div class="card-body ">
+                    <h3 class="card-title mb-3 ">compatible price</h3>
+                    <p class="card-text mb-5">want a comfortable home with complete facilities? find your dream home
+                        here!</p>
+                    <a href="#" class="btn text-danger border-radius px-5 py-2 mb-3">Read More ></a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <section class="p-5  ">
+        <div class="container">
+            <div class="row aling-items-center justify-content-between">
+
+                <div class="col  p-5  ">
+                    <i class="bi bi-signpost-split d-inline text-danger "></i>
+                    <p class="d-inline mb-5">why choose us <br></p>
+                    <p class="h2 text-danger d-inline">
+                        Provide
+                    </p>
+                    <p class="h2 d-inline ">
+                        to find <br> their satisfaction
+                    </p>
+                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias voluptate,
+                        exercitationem unde
+                        nulla ut id!</p>
+                </div>
+                <div class="col-md ps-5">
+                    <img src="/img/react.svg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section  class="p-5">
+        <div class="container">
+            <div class="row aling-items-center justify-content-between">
+                <div class="col-md me-5">
+                    <img src="./img/fundamentals (1).svg" alt="" class="img-fluid">
+
+                </div>
+                <div class="col-md p-5  ">
+                    <i class="bi bi-signpost-split d-inline text-danger d-inline "></i>
+                    <p class="d-inline">affordable pricing</p>
+                    <p class="h2 text-danger mt-3">
+                        Affrodable House
+                    </p>
+                    <p class="h2">with good price</p>
+                    <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias saepe numquam cumque nobis
+                        officiis voluptatem.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
